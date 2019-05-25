@@ -1,0 +1,16 @@
+extends default.pug
+
+block content
+    h2 自作曲
+    ul
+        li: a.menu-item(href="/music/guiter.pug") ギター系
+        li: a.menu-item(href="/music/dtm.pug") DTM系
+        li: a.menu-item(href="/music/miku.pug") 初音ミク系
+    hr
+    block music_content
+
+block style
+    link(rel="stylesheet", href="/assets/style/lylics.scss")
+
+block script
+    script(src="/script/lylics.ts")

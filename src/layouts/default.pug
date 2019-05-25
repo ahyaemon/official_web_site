@@ -1,0 +1,25 @@
+html
+    head
+        title (dev)あひゃえもんのページ
+        link(rel="stylesheet", href="/assets/style/base.scss")
+        link(rel="icon", type="image/x-icon", href="/assets/favicon.ico")
+        block style
+        meta(charset="utf-8")
+        meta(name="description", content="ahyaemon official web site")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+    body
+        h1: a.title(href="/index.pug") あひゃえもんのページ
+        ul
+            li: a.menu-item(href="/about.pug") このサイトについて
+            li: a.menu-item(href="/history.pug") 歴史
+            li: a.menu-item(href="/book.pug") 本
+            li: a.menu-item(href="/music.pug") 自作曲
+            li: a.menu-item(href="/game.pug") 自作ゲーム
+            li: a.menu-item(href="/program.pug") 自作プログラム
+            li: a.menu-item(href="/sonota.pug") その他
+        hr
+        block content
+        hr
+        footer
+            small &copy; 2019 あひゃえもん
+        block script
