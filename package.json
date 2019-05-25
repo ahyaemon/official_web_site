@@ -12,6 +12,6 @@
   "scripts": {
     "dev": "parcel src/*.pug",
     "build": "parcel build src/*.pug",
-    "serve": "http-server ./dist -o -g -p 8000"
+    "serve": "http-server ./dist -o -g -p 8080"
   }
 }
