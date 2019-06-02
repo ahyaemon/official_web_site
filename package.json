@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "parcel src/*.pug",
     "build": "parcel build src/*.pug",
-    "prebuild": "rmdir dist /s /q",
+    "_prebuild": "rmdir dist /s /q",
     "serve": "http-server ./dist -o -g -p 8080"
   },
   "sitemap": {
