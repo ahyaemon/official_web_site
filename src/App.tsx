@@ -4,6 +4,8 @@ import { Routes, Route, Link } from "solid-app-router"
 import {TopPage} from "./pages/TopPage";
 import {AboutPage} from "./pages/AboutPage";
 import {Footer} from "./components/Footer";
+import {HistoryPage} from "./pages/HistoryPage";
+import {BookPage} from "./pages/BookPage";
 
 export const App: Component = () => (
     <div>
@@ -15,6 +17,8 @@ export const App: Component = () => (
         <Routes>
             <Route path="/" component={TopPage} />
             <Route path="/about" component={AboutPage} />
+            <Route path="/history" component={HistoryPage} />
+            <Route path="/book" component={BookPage} />
         </Routes>
         <hr/>
         <Footer/>
