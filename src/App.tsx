@@ -1,13 +1,22 @@
 import type { Component } from 'solid-js';
 import {Menu} from "./components/Menu";
+import { Routes, Route, Link } from "solid-app-router"
+import {TopPage} from "./pages/TopPage";
+import {AboutPage} from "./pages/AboutPage";
+import {Footer} from "./components/Footer";
 
-const App: Component = () => {
-    return (
-        <div>
-            <h1>あひゃえもんのページ</h1>
-            <Menu/>
-        </div>
-    );
-};
-
-export default App;
+export const App: Component = () => (
+    <div>
+        <h1>
+            <Link class="page-title" href="/">あひゃえもんのページ</Link>
+        </h1>
+        <Menu/>
+        <hr/>
+        <Routes>
+            <Route path="/" component={TopPage} />
+            <Route path="/about" component={AboutPage} />
+        </Routes>
+        <hr/>
+        <Footer/>
+    </div>
+)
