@@ -1,0 +1,41 @@
+body {
+    font-family: 游ゴシック,YuGothic,ヒラギノ角ゴ Pro,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,sans-serif;
+}
+
+a {
+    color: #647563;
+}
+
+li {
+    list-style-type: none;
+}
+
+.page-title {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-list {
+    padding: 0 0 0 10px;
+}
+
+.game {
+    margin-top: 80px;
+    display: flex;
+}
+
+.deck {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+    position: absolute;
+
+    font-size: 40px;
+}
+
+.game-cleared {
+    color: red;
+}
