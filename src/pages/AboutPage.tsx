@@ -8,7 +8,7 @@ export const AboutPage: Component = () => {
 
             <h2>このサイトについて</h2>
             <p>管理人：あひゃえもん</p>
-            <p>連絡先：iamahyaemon&gt;@&lt;gmail.com</p>
+            <p>連絡先：iamahyaemon&lt;@&gt;gmail.com</p>
             <p>twitter: @ahyaemon</p>
         </div>
     )
