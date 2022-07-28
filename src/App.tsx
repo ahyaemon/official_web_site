@@ -10,6 +10,8 @@ import {MusicPage} from "./pages/music/MusicPage";
 import {GuitarPage} from "./pages/music/GuitarPage";
 import {DtmPage} from "./pages/music/DtmPage";
 import {MikuPage} from "./pages/music/MikuPage";
+import {GamePage} from "./pages/game/GamePage";
+import {SuperLibrePage} from "./pages/game/SuperLibrePage";
 
 export const App: Component = () => (
     <div>
@@ -28,6 +30,10 @@ export const App: Component = () => (
                 <Route path="/guitar" component={GuitarPage}/>
                 <Route path="/dtm" component={DtmPage}/>
                 <Route path="/miku" component={MikuPage}/>
+            </Route>
+            <Route path="game">
+                <Route path="/" component={GamePage}/>
+                <Route path="/super-libre" component={SuperLibrePage}/>
             </Route>
         </Routes>
         <hr/>

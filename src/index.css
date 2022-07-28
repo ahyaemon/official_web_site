@@ -2,6 +2,10 @@ body {
     font-family: 游ゴシック,YuGothic,ヒラギノ角ゴ Pro,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,sans-serif;
 }
 
+a {
+    color: #647563;
+}
+
 li {
     list-style-type: none;
 }
@@ -13,10 +17,6 @@ li {
 
 .menu-list {
     padding: 0 0 0 10px;
-}
-
-.menu-item {
-    color: #647563;
 }
 
 .game {
