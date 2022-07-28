@@ -2,9 +2,12 @@ import {Component} from "solid-js";
 import {MenuList} from "../../components/MenuList";
 import {musicMenuItems} from "./MusicPage";
 import juvenile from "../../assets/music/dtm/juvenile.mp3"
+import {Head} from "../../components/Head";
 
 export const DtmPage: Component = () => (
     <div>
+        <Head title="DTM"/>
+
         <h2>自作曲</h2>
         <MenuList menuItems={musicMenuItems}/>
 

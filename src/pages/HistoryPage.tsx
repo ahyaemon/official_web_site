@@ -1,7 +1,10 @@
 import {Component} from "solid-js";
+import {Head} from "../components/Head";
 
 export const HistoryPage: Component = () => (
     <div>
+        <Head title="歴史"/>
+
         <h2>歴史</h2>
         <p>
             1989：生まれる<br/>

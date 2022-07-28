@@ -2,9 +2,12 @@ import {Component} from "solid-js";
 import {MenuList} from "../../components/MenuList";
 import {musicMenuItems} from "./MusicPage";
 import sazanka from "../../assets/music/miku/山茶花.mp3";
+import {Head} from "../../components/Head";
 
 export const MikuPage: Component = () => (
     <div>
+        <Head title="初音ミク"/>
+
         <h2>自作曲</h2>
         <MenuList menuItems={musicMenuItems}/>
 

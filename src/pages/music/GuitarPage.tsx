@@ -5,6 +5,7 @@ import sukinakoto from "../../assets/music/guiter/好きなことだけして生
 import yogurt from "../../assets/music/guiter/ヨーグルト.mp3"
 import ninjin from "../../assets/music/guiter/かわいそうなにんじん.mp3"
 import nothing from "../../assets/music/guiter/なんにもしたくない.mp3"
+import {Head} from "../../components/Head";
 
 const musicHistories = [
     {
@@ -42,6 +43,8 @@ const musicHistories = [
 
 export const GuitarPage: Component = () => (
     <div>
+        <Head title="ギター"/>
+
         <h2>自作曲</h2>
         <MenuList menuItems={musicMenuItems}/>
 

@@ -2,6 +2,7 @@ import {Component} from "solid-js";
 import {MenuItem} from "../../types/MenuItem";
 import {MenuList} from "../../components/MenuList";
 import img1 from "../../assets/img/super-libre/super-libre.png"
+import {Head} from "../../components/Head";
 
 export const gameMenuItems: MenuItem[] = [
     { title: "SUPER LIBRE", link: "/game/super-libre" },
@@ -9,6 +10,8 @@ export const gameMenuItems: MenuItem[] = [
 
 export const SuperLibrePage: Component = () => (
     <div>
+        <Head title="SUPER LIBRE"/>
+
         <h2>ゲーム</h2>
         <MenuList menuItems={gameMenuItems}/>
 

@@ -1,6 +1,7 @@
 import {Component, createSignal, Show} from "solid-js";
 import {Game} from "../game/Game";
 import {GameArea} from "../components/game/GameArea";
+import {Head} from "../components/Head";
 
 export const TopPage: Component = () => {
 
@@ -12,6 +13,7 @@ export const TopPage: Component = () => {
 
     return (
         <div>
+            <Head/>
             ようこそ
             <div class="game">
                 <GameArea decks={game().decks} clickDeck={handleClick}/>
