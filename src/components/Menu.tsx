@@ -8,7 +8,6 @@ const menuItems: MenuItem[] = [
     { title: "好きな本", link: "/book" },
     { title: "自作曲", link: "/music" },
     { title: "自作ゲーム", link: "/game" },
-    { title: "自作プログラム", link: "/program" },
     { title: "他", link: "/others" },
 ]
 
