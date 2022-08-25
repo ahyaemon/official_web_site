@@ -15,10 +15,6 @@ const musicHistories = [
                 title: "好きなことだけして生きるにはどうすればいいの",
                 file: sukinakoto,
             },
-            {
-                title: "ヨーグルト",
-                file: yogurt,
-            },
         ],
     },
     {
