@@ -2,7 +2,6 @@ import {Component, For} from "solid-js";
 import {MenuList} from "../../components/MenuList";
 import {musicMenuItems} from "./MusicPage";
 import sukinakoto from "../../assets/music/guiter/好きなことだけして生きるにはどうすればいいの.mp3"
-import yogurt from "../../assets/music/guiter/ヨーグルト.mp3"
 import ninjin from "../../assets/music/guiter/かわいそうなにんじん.mp3"
 import nothing from "../../assets/music/guiter/なんにもしたくない.mp3"
 import {Head} from "../../components/Head";

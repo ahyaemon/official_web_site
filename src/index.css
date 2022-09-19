@@ -39,3 +39,12 @@ li {
 .game-cleared {
     color: red;
 }
+
+.youtube {
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+}
+.youtube iframe {
+    width: 100%;
+    height: 100%;
+}
