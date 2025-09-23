@@ -14,6 +14,7 @@ export const MusicPage: Component = () => (
         <Head title="自作曲"/>
 
         <h2>自作曲</h2>
+        <p><a href="https://music-gg.com">Music GG</a>でも公開中</p>
         <MenuList menuItems={musicMenuItems}/>
     </div>
 )

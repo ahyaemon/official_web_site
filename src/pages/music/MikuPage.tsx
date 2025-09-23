@@ -9,6 +9,7 @@ export const MikuPage: Component = () => (
         <Head title="初音ミク"/>
 
         <h2>自作曲</h2>
+        <p><a href="https://music-gg.com" target="_blank">Music GG</a>でも公開中</p>
         <MenuList menuItems={musicMenuItems}/>
 
         <hr/>
